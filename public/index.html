@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html ng-app="anniversary-clock">
+<html ng-app="clock">
     <head>
-        <title>Mean Stack Practice</title>
-        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-        <script type="text/javascript" src="core.js"></script>
+        <title>Anniversary Clock</title>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="core.js"></script>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body ng-controller="mainController">
-        Hello World
+        <div id="img"></div>
+        <div id="container">
+            <div id="clock">{{clock}}</div>
+            <div id="randomtext" ng-if="anniversaryToday">"Happy anniversary!"</div>
+        </div>
     </body>
 </html>
