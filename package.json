@@ -1,0 +1,24 @@
+{
+  "name": "anniversary-clock",
+  "version": "1.0.0",
+  "description": "A clock that counts up how long I've been with my girlfriend and has a slide of pictures.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeddlerOnTheRoof/anniversary-clock.git"
+  },
+  "author": "meddlerontheroof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeddlerOnTheRoof/anniversary-clock/issues"
+  },
+  "homepage": "https://github.com/MeddlerOnTheRoof/anniversary-clock#readme",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
+  }
+}
